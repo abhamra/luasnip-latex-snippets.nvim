@@ -15,7 +15,7 @@ function M.retrieve(not_math)
   }) --[[@as function]]
   return {
     s(
-      { trig = "b", name = "Basic template" },
+      { trig = "template", name = "Basic template" },
       {
         t({
           "\\documentclass[a4paper]{article}",
