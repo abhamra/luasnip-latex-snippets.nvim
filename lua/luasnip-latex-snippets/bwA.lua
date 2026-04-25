@@ -70,5 +70,4 @@ function M.retrieve(not_math)
   }
 end
 
-return Meturn
-M
+return M
