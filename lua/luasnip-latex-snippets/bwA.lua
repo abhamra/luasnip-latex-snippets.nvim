@@ -38,6 +38,8 @@ function M.retrieve(not_math)
           "\\author{}",
           "\\begin{document}",
           "\t",
+          "\\maketitle",
+          "\t",
         }),
         i(0),
         t({ "", "\\end{document}" }),
