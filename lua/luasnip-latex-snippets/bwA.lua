@@ -15,7 +15,7 @@ function M.retrieve(not_math)
   }) --[[@as function]]
   return {
     s(
-      { trig = "template", name = "Basic template" },
+      { trig = ";template", name = "Basic template" },
       {
         t({
           "\\documentclass[a4paper]{article}",
@@ -45,7 +45,7 @@ function M.retrieve(not_math)
       }
     ),
     s(
-      { trig = "ali", name = "Align" },
+      { trig = ";ali", name = "Align" },
       { t({ "\\begin{align*}", "\t" }), i(1), t({ "", ".\\end{align*}" }) }
     ),
     parse_snippet({ trig = "beg", name = "begin{} / end{}" }, "\\begin{$1}\n\t$0\n\\end{$1}"),
