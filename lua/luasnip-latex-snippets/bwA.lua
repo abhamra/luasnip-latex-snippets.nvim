@@ -37,7 +37,6 @@ function M.retrieve(not_math)
           "\\title{title}",
           "\\author{Arjun Bhamra}",
           "\\begin{document}",
-          "\t",
           "\\maketitle",
           "\t",
         }),
