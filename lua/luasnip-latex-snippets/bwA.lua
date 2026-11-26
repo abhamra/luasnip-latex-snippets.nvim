@@ -22,6 +22,7 @@ function M.retrieve(not_math)
           "\\usepackage[utf8]{inputenc}",
           "\\usepackage[T1]{fontenc}",
           "\\usepackage{textcomp}",
+          "\\usepackage{hyperref}",
           "\\usepackage{amsmath, amssymb}",
           "% figure support",
           "\\usepackage{import}",
